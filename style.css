@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(146, 212, 117);
+    font-size: 23px;
+}
+
+#score {
+    font-size: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+#time {
+    font-size: 30px;
+    float: right;
+    margin-right: 10px;
+}
+
+#drawnToBe{
+    box-shadow: 5px 5px 20px grey;
+    width: fit-content;
+    color: crimson;
+    font-weight: bolder;
+}
+
+#show_sketch{
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+h1{
+    font-weight: bold;
+    color: blue;
+    background-color: antiquewhite;
+}
+
+canvas{
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 20px;
+}
