@@ -1,40 +1,50 @@
-body {
-    background-color: rgb(146, 212, 117);
-    font-size: 23px;
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-size: 25px;
 }
 
-#score {
-    font-size: 30px;
+.note{
+    color: black;
+    font-size: 15px;
+}
+
+body{
+    background-size: cover;  
+}
+
+.div_speed{
     float: left;
-    margin-left: 10px;
 }
 
-#time {
-    font-size: 30px;
+.div_speed_img,.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed,#volume{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.div_volume{
     float: right;
-    margin-right: 10px;
 }
 
-#drawnToBe{
-    box-shadow: 5px 5px 20px grey;
-    width: fit-content;
-    color: crimson;
-    font-weight: bolder;
-}
-
-#show_sketch{
-    float: right;
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-h1{
-    font-weight: bold;
-    color: blue;
-    background-color: antiquewhite;
+.play_button{
+    width: 130px;
+    font-size: 25px;
 }
 
 canvas{
-    box-shadow: 10px 10px 20px grey;
-    border-radius: 20px;
+    border: 5px solid white;
+    border-radius: 25px;
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors{
+    to{box-shadow: 20px 30px 40px 50px white;}
+    from{box-shadow: 20px 30px 40px 50px gold;}
 }
